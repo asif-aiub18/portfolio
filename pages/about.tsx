@@ -11,14 +11,14 @@ const AboutPage: NextPage = () => {
         <div className="relative w-full max-w-md aspect-square rounded-full overflow-hidden mx-auto my-4">
           <Image
             src="/images/user1.jpeg"
-            alt="Ashik Rahman"
+            alt="Asif Anower"
             layout="fill"
             objectFit="cover"
           />
         </div>
         <p className="text-xl">
           I am Asif Anower, 23 years old and from Bangladesh. For a considerable time, I have been interested in web development.
-          I enjoy discovering new stuff. I aim to learn more because I currently have a very restricted knowledge base.
+          I enjoy discovering new stuff.I aim to learn more because I currently have a very restricted knowledge base.
           My own passion in learning web development and participating in it is web app development. 
         </p>
       </div>

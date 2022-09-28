@@ -30,7 +30,7 @@ export default function Document() {
           I enjoy discovering new stuff.I aim to learn more because I currently have a very restricted knowledge base.
           My own passion in learning web development and participating in it is web app development."
         />
-        <meta property="og:site_name" content="Ashik Rahman" />
+        <meta property="og:site_name" content="Asif Anower" />
         <meta property="og:url" content="https://asifanower.com/" />
         <meta
           property="og:description"

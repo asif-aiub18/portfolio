@@ -24,8 +24,8 @@ export default async function handler(
     });
     // const sendMail =
     await transport.sendMail({
-      from: "v2@ashrhmn.com",
-      to: "ashrhmn@outlook.com",
+      from: "admin@asifanower.com",
+      to: "asifanower24@gmail.com",
       subject: `${req.body.name} - from Portfolio Website`,
       html: `${req.body.msg} 
       
