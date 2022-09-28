@@ -7,7 +7,7 @@ export default function Document() {
         <meta property="og:title" content="Asif Anower - Developer" />
         <meta
           property="og:image"
-          content="https://asifanower.com/images/user1.jpeg"
+          content="https://www.asifanower.com/images/user1.jpeg"
         />
         <meta
           name="title"
@@ -34,7 +34,9 @@ export default function Document() {
         <meta property="og:url" content="https://asifanower.com/" />
         <meta
           property="og:description"
-          content="23 years old and from Bangladesh. Development has been an interest for many years, and works with anything from Desktop App to Mobile App and fullstack development. All the skills and tools are self-taught over years of practice and expanding my horizons"
+          content="I am Asif Anower, 23 years old and from Bangladesh. For a considerable time, I have been interested in web development.
+          I enjoy discovering new stuff.I aim to learn more because I currently have a very restricted knowledge base.
+          My own passion in learning web development and participating in it is web app development."
         />
         <meta property="og:type" content="website" />
       </Head>
