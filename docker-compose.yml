@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  client:
+    build:
+      context: .
+      args:
+        - PORT=${PORT:-3001}
+    image: portfolio-img
+    ports:
+      - ${PORT:-3001}:${PORT:-3001}
+    container_name: portfolio-v2
+    restart: always
+networks:
+  default:
+    external: true
+    name: nginx
