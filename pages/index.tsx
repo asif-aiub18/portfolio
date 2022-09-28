@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <div className="relative min-h-[200px] md:min-h-[500px] w-full">
           <Image
             src={`/images/hero-portfolio.png`}
-            alt="Hero Image Ashik Rahman"
+            alt="Hero Image Asif Anower"
             layout="fill"
             objectFit="contain"
             priority
