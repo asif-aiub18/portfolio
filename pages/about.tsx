@@ -4,6 +4,10 @@ import React from "react";
 import { SKILLS } from "../data/skills";
 
 const AboutPage: NextPage = () => {
+  const birthYear = 1999; // Change this to your actual birth year
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
+
   return (
     <div className="flex flex-col md:flex-row gap-6">
       <div className="w-full">
@@ -17,8 +21,8 @@ const AboutPage: NextPage = () => {
           />
         </div>
         <p className="text-xl">
-          I am Asif Anower, 23 years old and from Bangladesh. For a considerable time, I have been interested in web development.
-          I enjoy discovering new stuff.I aim to learn more because I currently have a very restricted knowledge base.
+          I am Asif Anower, {age} years old and from Bangladesh. For a considerable time, I have been interested in web development.
+          I enjoy discovering new stuff. I aim to learn more because I currently have a very restricted knowledge base.
           My own passion in learning web development and participating in it is web app development. 
         </p>
       </div>
